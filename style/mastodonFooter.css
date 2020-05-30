@@ -1,5 +1,6 @@
 #petitAffichage {
-    width: 250px;
+    /*width: 250px;*/
+    position: absolute;
     height: 65px;
     padding: 10px;
     margin: 0;
