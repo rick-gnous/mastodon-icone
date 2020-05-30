@@ -1,0 +1,33 @@
+#petitAffichage {
+    width: 250px;
+    height: 65px;
+    padding: 10px;
+    margin: 0;
+    border-radius: 25px;
+    background-color: #414141;
+}
+
+#petitAffichage a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+#photoMasto {
+    margin-right: 10px;
+    border-radius: 360px;
+}
+
+#infoTextMasto {
+    margin:10px;
+}
+
+#infoTextMasto p {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nomCompteMasto {
+    padding-top: 10px;
+    color: #778899;
+}
