@@ -1,9 +1,9 @@
 #petitAffichage {
-    /*width: 250px;*/
-    position: absolute;
+    display: inline-block;
     height: 65px;
     padding: 10px;
     margin: 0;
+    padding-bottom: 15px;
     border-radius: 25px;
     background-color: #414141;
 }
@@ -17,6 +17,8 @@
 #photoMasto {
     margin-right: 10px;
     border-radius: 360px;
+    border-color: black;
+    border-style: solid;
 }
 
 #infoTextMasto {
