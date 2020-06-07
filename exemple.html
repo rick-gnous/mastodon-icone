@@ -2,16 +2,22 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+
+    <!-- Lien vers le CSS -->
     <link rel="stylesheet" href="style/mastodonFooter.css">
-    <title>Affichage du compte Mastodon</title>
+    
+    <title>Document</title>
 </head>
 <body>
-    <footer>
-        <div id="petitAffichage"></div>
-    </footer> 
+
+    <!-- div à placer où le lien doit être affiché -->    
+    <div id="petitAffichage"></div>
+
+    <!-- scripts permettant l’affichage -->
     <script src="js/affichage.js"></script>
     <script>
         getProfile("https://toot.gnous.eu", 3703);
     </script>
+
 </body>
 </html>
